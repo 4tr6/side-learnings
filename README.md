@@ -1,2 +1,2 @@
 # side-learnings
-things I've learned that helping understand different things
+Things I’ve learned that help me understand different things
