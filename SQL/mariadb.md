@@ -1,0 +1,24 @@
+install mariadb 
+now if you want to check if its actully works > sudo systemctl status mariadb
+first we need to acssec mariadb to start creating datatabase and add some tables,the code is > sudo mariadb 
+defult database > show database; ( onec you get into mysql dont forget the semicolon)
+and then if you wanna creat your own with new name > 
+> create database nc_coffee;
+now you just added a new database named nc_coffee type the code to see it > show database;
+now we want to use our database we will say > use nc_coffee;
+(you will notice -database changed-)
+now we have empty tables in our database is you type > show database
+( you will finde nothing - empty set-) 
+so now lets creat one and we will give it a name and then id,name,region,roast > create table coffee_table (
+--> id INT AUTO_INCREMENT PRIMARY KEY;
+--> name varchar(255),
+--> region varchar(255),
+--> roast varchar(255) 
+--> );
+now you just created a table > show tables;
+and then > describe coffee_table;
+----------------------------
+now we want to add a row to the table we just created, and its gonna be arranged in order = id,name,region,roast the code will be 
+ > insert into coffee_table values (1, "defult rout", "canada", "light");
+ now we want to pull this data out to see how it looks like 
+ > slect * from coffee_table;
