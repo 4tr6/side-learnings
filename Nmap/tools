@@ -1,0 +1,18 @@
+nmap -p 1-1500  {scan from 1 to 1500]
+nmap -p-        {scan all ports}
+nmap -p- -sV    { -sV = version scan }
+nmap -O         {-O = will tell you which operation system the ip use}
+nmap -sS        {-sS = stealth scan } 
+nmap -sc        {-sC = scan script }
+nmap -Pn        {-Pn = no ping scan }
+sudo nmap -A    {-A  = -o -sV -sC "aggressive scan" }
+nmap --script= the script u copied + ip { run the scaan by script 
+not with flags like -sC or -p-}
+nmap --script= ftp-* { will run the scan with all ftp bounce}
+/usr/share/nmap/scripts/ { the location of nmap scripts}
+nmap -p 198.168.243.133 --script= the script vuln
+-T making the scan faster 
+dodg fierwall:
+-f  = { fragmenting packets}
+-g  = {changing source port that you scaning}
+nmap --help
