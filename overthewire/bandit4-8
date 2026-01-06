@@ -1,0 +1,22 @@
+(bandit 4] how to find the accii file that can be [ aitsreadable only by human) 
+{file ./*}
+---------------------------------------
+{bandit 5] human-readable
+1033 bytes in size
+not executable
+{find ./ -size 1033c ! -executable}
+"!= not"
+----------------------------------------
+bandit 6
+find / -user bandit7 -group bandit6 -size 33c 2> /dev/null
+[find / = start from the first place inside this system]
+[[2> /dev/null = sending all errors to /dev/null/ [
+its like sending them to the space]
+----------------
+bandit 7 
+solved by grep 
+--------------
+bandit 8 
+sort data.txt | uniq -c 
+he will sort all of the output with how many times 
+this output was repeated
