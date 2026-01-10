@@ -1,0 +1,15 @@
+ping google.com 
+ping -c
+ip addr show
+ip a 
+ip link show 
+sudo ip link set enpos3 down 
+ip link show 
+sudo ip link set enpos3 up 
+ip link show 
+ip route
+ss -tuln
+ss -s
+ss -tulnp
+dig google.com 
+dig +short google.com
