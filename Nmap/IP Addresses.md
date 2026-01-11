@@ -1,0 +1,20 @@
+ranging from 0.0.0.0 to 255.255.255.255 are categorized into five classes,depending on the value of the first 
+Class A ---> 0 - 127
+class B ---> 12 -191
+class C ---> 192-223  
+class D ---> 240-255
+class E ---> 240-255
+------------------------------------------------------------------
+PRIVATE IP ADDRESS 
+Class A 10.0.0.0 to 10.255.255.255
+
+Class B 172.16.0.0 to 172.31.255.2555
+
+Class C 192.168.0.0 to 192.168.255.255
+__________________________________________________________________
+NETWORK ADDRESS RESERVATIONS
+0.0.0.0: This network is allocated for default routing.
+
+127.0.0.0: This network is designated for loopback purposes.
+
+Class D Networks: These are reserved specifically for research and development activities
