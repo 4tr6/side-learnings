@@ -1,0 +1,4 @@
+TCP SYN SCAN 
+nmap -sS target  { you may need to use sudo}
+TCP CONNECT SCAN 
+nmap -sT target { it'snot fast and don't need sudo }
