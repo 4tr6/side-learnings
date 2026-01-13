@@ -1,3 +1,4 @@
+['target' mean the ip that you targeting]
 TCP SYN SCAN 
 nmap -sS target  { you may need to use sudo}
 TCP CONNECT SCAN 
