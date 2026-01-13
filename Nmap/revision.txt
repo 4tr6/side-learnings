@@ -13,3 +13,5 @@ CHECK A RANGE OR EXTENT OF PORTS
 nmap -p 1 - 1200 target
 CHECK ALL PORTS 
 nmap -p- target 
+DISCOVER SERVICES
+nmap -sV target
