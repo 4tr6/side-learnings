@@ -7,3 +7,9 @@ UDP SCAN
 nmap -sU target 
 AGGRESSIVE SCAN 
 nmap -A target 
+CHECK A SPECIFIC PORT
+nmap -p 70,300 target 
+CHECK A RANGE OR EXTENT OF PORTS
+nmap -p 1 - 1200 target
+CHECK ALL PORTS 
+nmap -p- target 
