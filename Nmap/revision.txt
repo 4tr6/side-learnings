@@ -18,8 +18,14 @@ nmap -sV target
 DISCOVER THE OPERATING SYSTEM
 nmap -O target
 DISCOVER DEVICES ON THE NETWORK
+RUN A SPECIFIC SCRIPT 
+nmap --script http-enum target 
+VULNERABILITY CHECK 
+nmap --script vuln target 
 nmap -sn 192.168.1.0/24
 PASS THE PING IF THE DEVICE NOT RESPONDING 
 nmap -Pn target
-RU A DEFAULT SCRIPT 
+RUN A DEFAULT SCRIPT 
 nmap -sC target
+CONTROLLING SPEED, STEALTH 
+nmap -T4 target [ T0 = slower 'stealth'][ T5 = faster 'more noise']
