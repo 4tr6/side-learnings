@@ -15,3 +15,5 @@ CHECK ALL PORTS
 nmap -p- target 
 DISCOVER SERVICES
 nmap -sV target
+DISCOVER THE OPERATING SYSTEM
+nmap -O target
