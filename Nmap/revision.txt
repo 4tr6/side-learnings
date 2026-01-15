@@ -27,5 +27,4 @@ PASS THE PING IF THE DEVICE NOT RESPONDING
 nmap -Pn target
 RUN A DEFAULT SCRIPT 
 nmap -sC target
-CONTROLLING SPEED, STEALTH 
-nmap -T4 target [ T0 = slower 'stealth'][ T5 = faster 'more noise']
+
