@@ -30,3 +30,7 @@ nmap -sC target
 CONTROLLING SPEED, STEALTH 
 nmap -T4 target [ T0 = slower 'stealth'][ T5 = faster 'more noise']
 ______________________________________________________________________________________________________________________
+  ADVANCED SCAN 
+nmap -sS -sV -O -p- -T4 target
+  SCAN WITH SCRIPT
+nmap -sC -sV target
