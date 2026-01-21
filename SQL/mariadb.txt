@@ -1,4 +1,4 @@
-install mariadb 
+
 now if you want to check if its actully works > sudo systemctl status mariadb
 first we need to acssec mariadb to start creating datatabase and add some tables,the code is > sudo mariadb 
 defult database > show database; ( onec you get into mysql dont forget the semicolon)
