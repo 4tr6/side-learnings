@@ -19,4 +19,3 @@ solved by grep
 bandit 8 
 sort data.txt | uniq -c 
 he will sort all of the output with how many times 
-this output was repeated
