@@ -21,3 +21,4 @@ and then > describe coffee_table;
 now we want to add a row to the table we just created, and its gonna be arranged in order = id,name,region,roast the code will be 
  > insert into coffee_table values (1, "defult rout", "canada", "light");
  now we want to pull this data out to see how it looks like 
+ > slect * from coffee_table;
