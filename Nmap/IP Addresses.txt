@@ -1,4 +1,3 @@
-ranging from 0.0.0.0 to 255.255.255.255 are categorized into five classes,depending on the value of the first 
 Class A ---> 0 - 127
 class B ---> 12 -191
 class C ---> 192-223  
